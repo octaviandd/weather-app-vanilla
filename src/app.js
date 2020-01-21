@@ -83,7 +83,10 @@ window.addEventListener("load", () => {
     let date = new Date();
 
     theDate.innerHTML = moment().format("MMM Do YYYY");
-    time.innerHTML = `${date.getHours()} : ${date
+    time.innerHTML = `${date
+      .getHours()
+      .toString()
+      .padStart(2, "0")} : ${date
       .getMinutes()
       .toString()
       .padStart(2, "0")}`;
