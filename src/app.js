@@ -1,5 +1,4 @@
 /** @format */
-console.log("hello Amigo Technology");
 var moment = require("moment");
 const location = document.querySelector("#location");
 const celsiusBtn = document.querySelector("#celsius");
